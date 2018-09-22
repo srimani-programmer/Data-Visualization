@@ -7,5 +7,6 @@ y = 1 + np.sin(2 * np.pi * x)
 plt.plot(x,y,color='red')
 plt.xlabel('time')
 plt.ylabel('voltage')
+plt.title('Sample Graph')
 
 plt.show()
